@@ -123,4 +123,79 @@ $("#p-booleans").click(function(){
   $("#h3-booleans").fadeIn();
 });
 
+//fourth row
+
+$("#h3-undefined").click(function(){
+  $("#p-undefined").fadeIn();
+  $("#h3-undefined").hide();
+});
+
+$("#p-undefined").click(function(){
+  $("#p-undefined").fadeOut();
+  $("#h3-undefined").fadeIn();
+});
+
+$("#h3-nan").click(function(){
+  $("#p-nan").fadeIn();
+  $("#h3-nan").hide();
+});
+
+$("#p-nan").click(function(){
+  $("#p-nan").fadeOut();
+  $("#h3-nan").fadeIn();
+});
+
+$("#h3-escape").click(function(){
+  $("#p-escape").fadeIn();
+  $("#h3-escape").hide();
+});
+
+$("#p-escape").click(function(){
+  $("#p-escape").fadeOut();
+  $("#h3-escape").fadeIn();
+});
+
+$("#h3-alert").click(function(){
+  $("#p-alert").fadeIn();
+  $("#h3-alert").hide();
+});
+
+$("#p-alert").click(function(){
+  $("#p-alert").fadeOut();
+  $("#h3-alert").fadeIn();
+});
+
+//fifth row
+
+$("#h3-comments").click(function(){
+  $("#p-comments").fadeIn();
+  $("#h3-comments").hide();
+});
+
+$("#p-comments").click(function(){
+  $("#p-comments").fadeOut();
+  $("#h3-comments").fadeIn();
+});
+
+$("#h3-jQuery").click(function(){
+  $("#p-jQuery").fadeIn();
+  $("#h3-jQuery").hide();
+});
+
+$("#p-jQuery").click(function(){
+  $("#p-jQuery").fadeOut();
+  $("#h3-jQuery").fadeIn();
+});
+
+$("#h3-attributes").click(function(){
+  $("#p-attributes").fadeIn();
+  $("#h3-attributes").hide();
+});
+
+$("#p-attributes").click(function(){
+  $("#p-attributes").fadeOut();
+  $("#h3-attributes").fadeIn();
+});
+
+
 });
