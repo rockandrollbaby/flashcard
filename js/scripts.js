@@ -1,11 +1,10 @@
 $(function() {
-
+//First Row
   $("#h3-javascript").click(function(){
     $("#p-javascript").fadeIn();
     $("#h3-javascript").hide();
   });
 
-//First Row
   $("#p-javascript").click(function(){
     $("#p-javascript").fadeOut();
     $("#h3-javascript").fadeIn();
